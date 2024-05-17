@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class ContinuousMovement : MonoBehaviour
+public class CubeMode : MonoBehaviour
 {
     public float moveSpeed = 6f; // Die Geschwindigkeit, mit der das Objekt sich horizontal bewegt
     public float jumpForce = 5f; // Die Kraft, mit der das Objekt springt
@@ -12,7 +12,7 @@ public class ContinuousMovement : MonoBehaviour
         transform.Translate(Vector3.right * moveSpeed * Time.deltaTime);
 
         // Wenn die Leertaste gedrückt wird und das Objekt auf dem Boden ist, springe
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        if (Input.GetKey(KeyCode.Space) && isGrounded)
         {
             Jump();
         }
