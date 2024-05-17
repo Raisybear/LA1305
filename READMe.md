@@ -65,7 +65,7 @@ Elias Spycher und Robin Sacher
 | ---- | ----- | --------- | ------------ | ------------- |
 | 1.A  |   14.06.2024    |     Elias Spycher      |       Sprung Funktion        |        30'       |
 | 2.A  |   14.06.2024    |     Elias Spycher      |       Sprung Animation       |        10'       |
-| 3.A  |   14.06.2024    |     Robin Sacher       |       Level Auswahö          |        20'       |
+| 3.A  |   14.06.2024    |     Robin Sacher       |       Level Auswahl          |        20'       |
 | 7.A  |   14.06.2024    |     Elias Spycher      |       Sprung Animation       |        10'       |
 | 6.A  |   14.06.2024    |     Robin Sacher       |       Menu                   |        90'       |
 | 10.A |   14.06.2024    |     Robin Sacher       |       Spielregeln im Menu    |        20'       |
