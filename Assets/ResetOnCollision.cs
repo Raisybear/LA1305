@@ -2,21 +2,21 @@ using UnityEngine;
 
 public class ResetOnCollision : MonoBehaviour
 {
-    private Vector3 startPosition; // Die Startposition des Objekts
+    private Vector2 startPosition; // Die Startposition des Objekts
 
     void Start()
     {
-        // Speichere die Startposition des Objekts
-        startPosition = transform.position;
+        // Setze die Startposition des Objekts auf die angegebenen Koordinaten
+        startPosition = new Vector2(-13.62f, -0.1f);
     }
 
-    void OnCollisionEnter(Collision collision)
+    void OnCollisionEnter2D(Collision2D collision)
     {
         // Überprüfe, ob das kollidierende Objekt das gewünschte Objekt ist
         if (collision.gameObject.CompareTag("Spike"))
         {
             // Setze das Objekt zur Startposition zurück
-            transform.position = startPosition;
+            transform.position = new Vector3(startPosition.x, startPosition.y, transform.position.z);
         }
     }
 }
