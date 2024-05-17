@@ -118,5 +118,5 @@ Total:
 
 ## 6 Auswerten
 
-- Robin Sacher:
+- Robin Sacher: https://portfolio.bbbaden.ch/view/view.php?t=5b5992608008fad97949
 - Elias Spycher:
