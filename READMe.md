@@ -5,7 +5,7 @@ Elias Spycher und Robin Sacher
 | Datum      | Version | Zusammenfassung                                                           |
 | ---------- | ------- | ------------------------------------------------------------------------- |
 | 10.05.2024 | 0.0.1   | Projektdokumentation erstellt und Phasen I und P von IPERKA abgeschlossen |
-|            | ...     |                                                                           |
+| 17.05.2024 | 0.0.2   | Projektdokumentation weiter bearbeitet, Testfällle erstellt und Menu in Game hinzugefügt   |
 |            | 1.0.0   |                                                                           |
 
 ## 1 Informieren
@@ -51,7 +51,7 @@ Elias Spycher und Robin Sacher
 | 12.1 | Spiel gestartet                       | Level Nr. 1 auswählen       | Soundtrack startet                                                                  |
 | 12.2 | Spiel gestartet                       | Level Nr. 2 auswählen       | Neuer Soundtrack, wlecher sich von Soundtrack Nr. 1 unterscheidet, startet          |
 | 12.3 | Spiel gestartet                       | Level Nr. 3 auswählen       | Neuer Soundtrack, wlecher sich von Soundtrack Nr. 1 und Nr. 2unterscheidet, startet |
-| 13.1 | Spiel gestartet, ein Level ausgewählt | Mausklick auf Pasue         | Das Spiel wird pausiert                                                             |
+| 13.1 | Spiel gestartet, ein Level ausgewählt | ESC Taste drücken           | Das Spiel wird pausiert                                                             |
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
@@ -63,8 +63,22 @@ Elias Spycher und Robin Sacher
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |       |           |              |               |
-| ...  |       |           |              |               |
+| 1.A  |   14.06.2024    |     Elias Spycher      |       Sprung Funktion        |        30'       |
+| 2.B  |   14.06.2024    |     Elias Spycher      |       Sprung Animation       |        10'       |
+| 7.C  |   14.06.2024    |     Elias Spycher      |       Sprung Animation       |        10'       |
+| 6.D  |   14.06.2024    |     Robin Sacher       |       Menu                   |        90'       |
+| 10.E |   14.06.2024    |     Robin Sacher       |       Spielregeln im Menu    |        30'       |
+| x.F  |   14.06.2024    |           |              |               |
+| x.G  |   14.06.2024    |           |              |               |
+| x.H  |   14.06.2024    |           |              |               |
+| x.I  |   14.06.2024    |           |              |               |
+| x.J  |   14.06.2024    |           |              |               |
+| x.K  |   14.06.2024    |           |              |               |
+| x.L  |   14.06.2024    |           |              |               |
+| x.M  |   14.06.2024    |           |              |               |
+| x.N  |   14.06.2024    |           |              |               |
+| x.O  |   14.06.2024    |           |              |               |
+
 
 Total:
 
@@ -80,7 +94,9 @@ Total:
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |       |           |               |                   |
+| 1.A  |   17.05.2024    |      Elias Spycher     |       30'        |          40'         |
+| 2.A  |   17.05.2024    |      Elias Spycher     |       30'        |          20'         |
+| 7.A  |   17.05.2024    |      Elias Spycher     |       30'        |          10'         |
 | ...  |       |           |               |                   |
 
 ✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
