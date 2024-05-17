@@ -5,7 +5,7 @@ Elias Spycher und Robin Sacher
 | Datum      | Version | Zusammenfassung                                                           |
 | ---------- | ------- | ------------------------------------------------------------------------- |
 | 10.05.2024 | 0.0.1   | Projektdokumentation erstellt und Phasen I und P von IPERKA abgeschlossen |
-| 17.05.2024 | 0.0.2   | Projektdokumentation weiter bearbeitet, Testfällle erstellt und Menu in Game hinzugefügt   |
+| 17.05.2024 | 0.0.2   | Projektdokumentation weiter bearbeitet, Testfällle erstellt und Main Menu + Level Auswahl in Game hinzugefügt, Level 1 teilweise implementiert   |
 |            | 1.0.0   |                                                                           |
 
 ## 1 Informieren
