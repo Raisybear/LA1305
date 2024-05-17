@@ -16,7 +16,22 @@ public class ResetOnCollision : MonoBehaviour
         if (collision.gameObject.CompareTag("Spike"))
         {
             // Setze das Objekt zur Startposition zurück
-            transform.position = new Vector3(startPosition.x, startPosition.y, transform.position.z);
+            ResetPosition();
+        }
+    }
+
+    void ResetPosition()
+    {
+        // Setze die Position des Objekts auf die Startposition zurück
+        transform.position = new Vector3(startPosition.x, startPosition.y, transform.position.z);
+        // Setze die Rotation des Objekts zurück
+        transform.rotation = Quaternion.identity;
+        // Setze die Geschwindigkeit des Objekts zurück (falls es sich bewegt)
+        Rigidbody2D rb = GetComponent<Rigidbody2D>();
+        if (rb != null)
+        {
+            rb.velocity = Vector2.zero;
+            rb.angularVelocity = 0f;
         }
     }
 }
