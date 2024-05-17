@@ -64,10 +64,11 @@ Elias Spycher und Robin Sacher
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
 | 1.A  |   14.06.2024    |     Elias Spycher      |       Sprung Funktion        |        30'       |
-| 2.B  |   14.06.2024    |     Elias Spycher      |       Sprung Animation       |        10'       |
-| 7.C  |   14.06.2024    |     Elias Spycher      |       Sprung Animation       |        10'       |
-| 6.D  |   14.06.2024    |     Robin Sacher       |       Menu                   |        90'       |
-| 10.E |   14.06.2024    |     Robin Sacher       |       Spielregeln im Menu    |        30'       |
+| 2.A  |   14.06.2024    |     Elias Spycher      |       Sprung Animation       |        10'       |
+| 3.A  |   14.06.2024    |     Robin Sacher       |       Level Auswahö          |        20'       |
+| 7.A  |   14.06.2024    |     Elias Spycher      |       Sprung Animation       |        10'       |
+| 6.A  |   14.06.2024    |     Robin Sacher       |       Menu                   |        90'       |
+| 10.A |   14.06.2024    |     Robin Sacher       |       Spielregeln im Menu    |        20'       |
 | x.F  |   14.06.2024    |           |              |               |
 | x.G  |   14.06.2024    |           |              |               |
 | x.H  |   14.06.2024    |           |              |               |
@@ -97,7 +98,10 @@ Total:
 | 1.A  |   17.05.2024    |      Elias Spycher     |       30'        |          40'         |
 | 2.A  |   17.05.2024    |      Elias Spycher     |       30'        |          20'         |
 | 7.A  |   17.05.2024    |      Elias Spycher     |       30'        |          10'         |
-| ...  |       |           |               |                   |
+| 3.A  |   17.05.2024    |      Robin Sacher      |       20'        |          25'         |
+| 6.A  |   17.05.2024    |      Robin Sacher      |       90'        |          60'         |
+| 10.A  |  17.05.2024    |      Robin Sacher      |       20'        |          10'         |
+
 
 ✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
 
