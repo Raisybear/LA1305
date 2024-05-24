@@ -24,6 +24,7 @@ public class Movement : MonoBehaviour
         }
     }
 
+
     void WaveMove()
     {
         moveSpeed = 9f;
@@ -53,7 +54,6 @@ public class Movement : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             isGrounded = true;
-            isWaveMode = false;
         }
         else if (collision.gameObject.CompareTag("WavePortal"))
         {
