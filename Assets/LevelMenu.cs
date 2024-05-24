@@ -7,12 +7,12 @@ public class LevelMenu : MonoBehaviour
 {
     public void PlayLevel1()
     {
-        SceneManager.LoadSceneAsync(3);
+        SceneManager.LoadSceneAsync(2);
     }
 
     public void PlayLevel2()
     {
-        SceneManager.LoadSceneAsync(4);
+        SceneManager.LoadSceneAsync(3);
     }
 }
 
