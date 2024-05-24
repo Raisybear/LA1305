@@ -11,15 +11,15 @@ public class ScoreManager : MonoBehaviour
     void Start()
     {
         deathCount = 0;
-        UpdateDeathText(); // Umbenannte Methode
+        UpdateDeathText(); 
     }
 
     void Update()
     {
-        UpdateDeathText(); // Umbenannte Methode
+        UpdateDeathText(); 
     }
 
-    void UpdateDeathText() // Umbenannte Methode
+    void UpdateDeathText() 
     {
         deathText.text = "Deaths: " + deathCount;
     }

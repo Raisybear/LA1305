@@ -17,6 +17,8 @@ public class ResetOnCollision : MonoBehaviour
         {
             // Setze das Objekt zur Startposition zurück
             ResetPosition();
+
+            ScoreManager.deathCount++;
         }
     }
 
