@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class ResetOnCollision : MonoBehaviour
 {
+    public AudioSource audioSource;
     private Vector2 startPosition; // Die Startposition des Objekts
 
     void Start()
@@ -19,6 +20,10 @@ public class ResetOnCollision : MonoBehaviour
             ResetPosition();
 
             ScoreManager.deathCount++;
+
+            audioSource.Stop(); // Stoppe die Wiedergabe
+            audioSource.time = 0f; // Setze die Wiedergabezeit auf den Anfang
+            audioSource.Play(); // Starte die Wiedergabe erneut
         }
     }
 
@@ -34,6 +39,13 @@ public class ResetOnCollision : MonoBehaviour
         {
             rb.velocity = Vector2.zero;
             rb.angularVelocity = 0f;
+        }
+
+        // Setze den Spielmodus zurück
+        Movement movementScript = GetComponent<Movement>();
+        if (movementScript != null)
+        {
+            movementScript.ResetToDefaultMode();
         }
     }
 }

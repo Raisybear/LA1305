@@ -7,6 +7,11 @@ public class Movement : MonoBehaviour
     public bool isGrounded = false; // Flag, um zu überprüfen, ob das Objekt den Boden berührt
     public bool isWaveMode = false;
 
+    public void ResetToDefaultMode()
+    {
+        isWaveMode = false;
+    }
+
     void Update()
     {
         transform.rotation = Quaternion.Euler(0, 0, 0);
@@ -45,6 +50,9 @@ public class Movement : MonoBehaviour
 
     void Jump()
     {
+        moveSpeed = 8f;
+        jumpForce = 13f;
+
         // Füge eine vertikale Kraft hinzu, um das Objekt zu springen
         GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, jumpForce);
         isGrounded = false; // Setze isGrounded auf false, da das Objekt jetzt in der Luft ist
