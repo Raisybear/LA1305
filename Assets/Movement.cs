@@ -9,6 +9,8 @@ public class Movement : MonoBehaviour
 
     void Update()
     {
+        transform.rotation = Quaternion.Euler(0, 0, 0);
+
         // Bewege das Objekt horizontal nach rechts basierend auf der Geschwindigkeit
         transform.Translate(Vector3.right * moveSpeed * Time.deltaTime);
 
