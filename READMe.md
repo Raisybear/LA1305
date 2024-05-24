@@ -6,7 +6,7 @@ Elias Spycher und Robin Sacher
 | ---------- | ------- | ------------------------------------------------------------------------- |
 | 10.05.2024 | 0.0.1   | Projektdokumentation erstellt und Phasen I und P von IPERKA abgeschlossen |
 | 17.05.2024 | 0.0.2   | Projektdokumentation weiter bearbeitet, Testfällle erstellt und Main Menu + Level Auswahl in Game hinzugefügt, Level 1 teilweise implementiert   |
-|            | 1.0.0   |                                                                           |
+| 24-05.2024 | 0.0.3   | Projekt weiter verbessert. Audio hinzugefügt. Death-Counter implementiert. Asset hinzugefügt. Level Design verbessert + Level 2 hinzugefügt   |
 
 ## 1 Informieren
 
@@ -29,6 +29,9 @@ Elias Spycher und Robin Sacher
 | 11   | Kann            | Qualität   | Als ein Spieler möchte ich, dass jedes Level ein einzigartiges Design hat, um visuelle Abwechslung zu bieten.        |
 | 12   | Kann            | Qualität   | Als ein Spieler möchte ich verschiedene Musiktracks je nach Level, um die Atmosphäre zu verbessern.                  |
 | 13   | Kann            | Funktional | Als ein Spieler möchte ich eine Pause-Funktion, um das Spiel jederzeit unterbrechen zu können.                       |
+| 14   | Kann            | Funktional | Als ein Spieler möchte ich einen Death-Counter, um zu sehen, wie oft ich gestorben.                                  |
+
+
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: _Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️_.
 
@@ -52,6 +55,7 @@ Elias Spycher und Robin Sacher
 | 12.2 | Spiel gestartet                       | Level Nr. 2 auswählen       | Neuer Soundtrack, wlecher sich von Soundtrack Nr. 1 unterscheidet, startet          |
 | 12.3 | Spiel gestartet                       | Level Nr. 3 auswählen       | Neuer Soundtrack, wlecher sich von Soundtrack Nr. 1 und Nr. 2unterscheidet, startet |
 | 13.1 | Spiel gestartet, ein Level ausgewählt | ESC Taste drücken           | Das Spiel wird pausiert                                                             |
+| 14.1 | Spiel gestartet, ein Level ausgewählt | Durch Hinderniss sterben    | Death-Counter wird um 1 erhöht                                                      |
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
