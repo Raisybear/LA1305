@@ -28,11 +28,6 @@ public class ScreenFlashEffect : MonoBehaviour
 
     void Update()
     {
-        if (musicSource.isPlaying)
-        {
-            Debug.Log("Musik läuft, aktuelle Zeit: " + musicSource.time);
-        }
-
         if (!isInitialBlackScreen)
         {
             Debug.Log("Initialer schwarzer Bildschirm beendet");

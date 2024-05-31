@@ -71,6 +71,15 @@ public class Movement : MonoBehaviour
         }
     }
 
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("WavePortal"))
+        {
+            SwitchToWaveMode();
+        }
+
+    }
+
     void SwitchToWaveMode()
     {
         isWaveMode = true;
