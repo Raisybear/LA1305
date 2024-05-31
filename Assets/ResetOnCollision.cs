@@ -9,7 +9,7 @@ public class ResetOnCollision : MonoBehaviour
 
     void Start()
     {
-        startPosition = new Vector2(-13.62f, -0.1f);
+        startPosition = new Vector2(-20.62f, -0.1f);
     }
 
     void OnCollisionEnter2D(Collision2D collision)
