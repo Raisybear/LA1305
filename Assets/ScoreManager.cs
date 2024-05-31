@@ -1,11 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using TMPro;
 
 public class ScoreManager : MonoBehaviour
 {
-    public Text deathText;
+    public TMP_Text deathText;
     public static int deathCount;
 
     void Start()
