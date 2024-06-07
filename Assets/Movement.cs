@@ -83,11 +83,20 @@ public class Movement : MonoBehaviour
         {
             SwitchToWaveMode();
         }
+        if (collision.CompareTag("CubePortal"))
+        {
+            SwitchToCubeMode();
+        }
 
     }
 
     void SwitchToWaveMode()
     {
         isWaveMode = true;
+    }
+
+    void SwitchToCubeMode()
+    {
+        isWaveMode = false;
     }
 }
