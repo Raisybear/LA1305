@@ -6711,9 +6711,7 @@ MonoBehaviour:
   musicSource: {fileID: 1323213497}
   flashImage: {fileID: 2133606742}
   flashDuration: 0.3
-  syncTimes:
-  - 10.1
-  - 20
+  syncTimes: []
   initialBlackDuration: 0.5
   currentSyncIndex: 0
   isInitialBlackScreen: 0
