@@ -40,7 +40,7 @@ public class Movement : MonoBehaviour
 
     void WaveMove()
     {
-        moveSpeed = 9f;
+        moveSpeed = 6.5f;
 
         jumpForce = 10f;
 
