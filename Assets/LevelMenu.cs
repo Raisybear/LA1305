@@ -14,5 +14,10 @@ public class LevelMenu : MonoBehaviour
     {
         SceneManager.LoadSceneAsync(3);
     }
+    
+    public void PlayLevel3()
+    {
+        SceneManager.LoadSceneAsync(4);
+    }
 }
 

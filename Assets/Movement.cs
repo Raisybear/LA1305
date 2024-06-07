@@ -1,5 +1,5 @@
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class Movement : MonoBehaviour
 {
     public float moveSpeed = 6f; // Die Geschwindigkeit, mit der das Objekt sich horizontal bewegt
@@ -23,6 +23,12 @@ public class Movement : MonoBehaviour
         if ((Input.GetKey(KeyCode.Space) || Input.GetMouseButton(0)) && isGrounded)
         {
             Jump();
+        }
+        
+        // Wenn die Escape-Taste gedrückt wird, lade die Hauptmenüszene
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadSceneAsync(1);
         }
 
         else if (isWaveMode == true)
