@@ -5,11 +5,11 @@ Elias Spycher und Robin Sacher
 | Datum      | Version | Zusammenfassung                                                           |
 | ---------- | ------- | ------------------------------------------------------------------------- |
 | 10.05.2024 | 0.0.1   | Projektdokumentation erstellt und Phasen I und P von IPERKA abgeschlossen |
-| 17.05.2024 | 0.0.2   | Projektdokumentation weiter bearbeitet, Testfällle erstellt und Main Menu + Level Auswahl in Game hinzugefügt, Level 1 teilweise implementiert   |
+| 17.05.2024 | 0.0.2   | Projektdokumentation weiter bearbeitet, Testfällle erstellt und Main Menu + Level Auswahl in Game hinzugefügt, Level 1 teilweise implementiert|
 | 24.05.2024 | 0.0.3   | Projekt weiter verbessert. Audio hinzugefügt. Death-Counter implementiert. Asset hinzugefügt. Level Design verbessert + Level 2 hinzugefügt   |
 | 31.05.2024 | 0.0.4   | Projekt weiter verbessert. Animationen hinzugefügt, Levelauswahl aktualisiert, an den Levels weitergebaut.   |
 | 07.06.2024 | 0.0.5   | Projekt weiter verbessert. An den Levels weitergebaut.    |
-| 07.06.2024 | 1.0.0   | Projekt weiter verbessert. Audio hinzugefügt. Death-Counter implementiert. Asset hinzugefügt. Level Design verbessert + Level 2 hinzugefügt   |
+| 14.06.2024 | 1.0.0   | Projekt weiter verbessert. Finish hinzugefügt, Levels fertig gebaut, Assets geändert. Projektdokumentation und Mahara Beitrag geschrieben  |
 
 
 
@@ -17,6 +17,8 @@ Elias Spycher und Robin Sacher
 ## 1 Informieren
 
 ### 1.1 Ihr Projekt
+
+Wir haben uns entschieden ein Unity Game zu programmieren und Realisieren, Als Grundidee und Inspiration haben wir das Jump n Run Game Geometry Dash genommen und eine eigene Version davon in Unity umgesetzt.
 
 ### 1.2 User Stories
 
@@ -38,8 +40,6 @@ Elias Spycher und Robin Sacher
 | 14   | Kann            | Funktional | Als ein Spieler möchte ich einen Death-Counter, um zu sehen, wie oft ich gestorben.                                  |
 
 
-
-✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: _Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️_.
 
 ### 1.3 Testfälle
 
@@ -67,29 +67,29 @@ Elias Spycher und Robin Sacher
 
 ### 1.4 Diagramme
 
-✍️ Hier können Sie PAPs, Use Case- und Gantt-Diagramme oder Ähnliches einfügen.
+Wir haben keine Diagramme
 
 ## 2 Planen
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |   14.06.2024    |     Elias Spycher      |       Sprung Funktion        |        30'       |
+| 1.A  |   14.06.2024    |     Elias Spycher      |       Sprung Funktion        |        60'       |
 | 2.A  |   14.06.2024    |     Elias Spycher      |       Sprung Animation       |        10'       |
 | 3.A  |   14.06.2024    |     Robin Sacher       |       Level Auswahl          |        20'       |
 | 7.A  |   14.06.2024    |     Elias Spycher      |       Sprung Animation       |        10'       |
 | 6.A  |   14.06.2024    |     Robin Sacher       |       Menu                   |        90'       |
 | 10.A |   14.06.2024    |     Robin Sacher       |       Spielregeln im Menu    |        20'       |
-| x.F  |   14.06.2024    |           |              |               |
-| x.G  |   14.06.2024    |           |              |               |
-| x.H  |   14.06.2024    |           |              |               |
-| x.I  |   14.06.2024    |           |              |               |
-| x.J  |   14.06.2024    |           |              |               |
-| x.K  |   14.06.2024    |           |              |               |
-| x.L  |   14.06.2024    |           |              |               |
-| x.M  |   14.06.2024    |           |              |               |
-| x.N  |   14.06.2024    |           |              |               |
-| x.O  |   14.06.2024    |           |              |               |
-
+| 5.A  |   14.06.2024    |     Elias Spycher      |       Musik im Game          |        60'       |
+| 8.A  |   14.06.2024    |     Elias Spycher/Robin Sacher      |    Clean Code          |      60'         |
+| 9.A  |   14.06.2024    |     Robin Sacher/Elias Spycher      |    Einfacher Start          |       60'        |
+| 11.A  |   14.06.2024   |     Elias Spycher/Robin Sacher      |    Level 1 Design           |         120'         |
+| 11.B  |   14.06.2024   |     Robin Sacher       |       Level 2 Design       |       120'        |
+| 11.C  |   14.06.2024   |     Elias Spycher      |       Level 3 Design       |       120'        |
+| 12.A  |   14.06.2024    |     Elias Spycher      |      Level 1 Musik        |       30'        |
+| 12.B  |   14.06.2024    |     Elias Spycher      |      Level 2 Musik        |       30'        |
+| 12.C  |   14.06.2024    |    Elias Spycher       |      Level 3 Musik        |       30'        |
+| 13.A  |   14.06.2024    |    Robin Sacher       |       Escape -> Menu       |       40'        |
+| 14.A  |   14.06.2024    |    Robin Sacher       |       Deathcounter         |       120'        |
 
 Total:
 
@@ -99,7 +99,7 @@ Total:
 
 ## 3 Entscheiden
 
-✍️ Dokumentieren Sie hier Ihre Entscheidungen und Annahmen, die Sie im Bezug auf Ihre User Stories und die Implementierung getroffen haben.
+Wir haben uns entschieden die Levels nicht sehr umfänglich zu gestalten und uns darauf zu konzentrieren, dass jedes Level spielbar ist und alle Funktionen funktionieren.
 
 ## 4 Realisieren
 
@@ -111,6 +111,18 @@ Total:
 | 3.A  |   17.05.2024    |      Robin Sacher      |       20'        |          25'         |
 | 6.A  |   17.05.2024    |      Robin Sacher      |       90'        |          60'         |
 | 10.A  |  17.05.2024    |      Robin Sacher      |       20'        |          10'         |
+| 5.A  |   24.05.2024    |      Elias Spycher     |               |                   |
+| 8.A  |   24.05.2024    |      Elias Spycher/Robin Sacher     |               |                   |
+| 9.A  |   24.05.2024    |      Robin Sacher/Robin Sacher      |               |                   |
+| .A  |   24.05.2024    |      Robin Sacher      |               |                   |
+| .A  |   31.05.2024     |      Robin Sacher      |               |                   |
+| .A  |   31.05.2024     |      Robin Sacher      |               |                   |
+| .A  |   31.05.2024     |      Robin Sacher      |               |                   |
+| .A  |   07.06.2024     |      Robin Sacher      |               |                   |
+| .A  |   07.06.2024     |      Robin Sacher      |               |                   |
+| .A  |   14.06.2024     |      Robin Sacher      |               |                   |
+| .A  |   14.06.2024     |      Robin Sacher      |               |                   |
+
 
 
 ✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
@@ -129,4 +141,4 @@ Total:
 ## 6 Auswerten
 
 - Robin Sacher: https://portfolio.bbbaden.ch/view/view.php?t=5b5992608008fad97949
-- Elias Spycher:
+- Elias Spycher: https://portfolio.bbbaden.ch/view/blocks.php?id=34333
