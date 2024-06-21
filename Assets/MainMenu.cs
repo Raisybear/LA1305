@@ -7,6 +7,7 @@ public class MainMenu : MonoBehaviour
 {	
     public void PlayGame()
     {
+        // Level-Menu aufrufen
         SceneManager.LoadSceneAsync(1);
     }
 }

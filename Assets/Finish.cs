@@ -10,6 +10,7 @@ public class Finish : MonoBehaviour
         Debug.Log("Kollision erkannt mit: " + collision.tag);
         if (collision.tag == "Untagged")
         {
+            // Level-Menu aufrufen
             SceneManager.LoadScene(1);
         }
     }
